@@ -1,3 +1,4 @@
+import BpWidgets from "./components/BpWidgets";
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -173,6 +174,7 @@ const App: React.FC = () => {
         type={modalType} 
         onClose={() => setModalType(null)} 
       />
+      <BpWidgets />
     </div>
   );
 };
